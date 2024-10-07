@@ -34,6 +34,10 @@ deleteBtn.addEventListener("dblclick", function() {
     
 })
 
+onValue(referenceInDB, function(snapshot) {
+    console.log(snapshot.val())
+})
+
 inputBtn.addEventListener("click", function() {
     push(referenceInDB, inputEl.value)
     inputEl.value = ""
