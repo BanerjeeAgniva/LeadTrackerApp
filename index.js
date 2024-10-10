@@ -7,6 +7,7 @@ import { getDatabase,
 
 const firebaseConfig = {
     databaseURL: "https://leads-tracker-app-7f725-default-rtdb.firebaseio.com/"
+}
 
 const app = initializeApp(firebaseConfig)
 const database = getDatabase(app)
